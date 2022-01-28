@@ -19,10 +19,10 @@ web worker is not compiling to ts when url is constructed outside of Worker
 ```
 
 
-## why was i modifying the url?
-IE11 support is not enabled in this project...
+## why was i doing this?
+I wanted to modify the url before sending into worker... why? probably another bug.
 
-However... the whole reason I wanted to modify the URL of the worker was because the worker URL was apparently not correct in IE11..
+IE11 support is not enabled in this project... however... the whole reason I wanted to modify the URL of the worker was because the worker URL was apparently not correct in IE11..
 The url it was trying to pull worker from was wrong
 
 the code was trying to pull worker from two different spots:
