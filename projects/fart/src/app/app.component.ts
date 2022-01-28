@@ -13,7 +13,7 @@ export class AppComponent {
 if (typeof Worker !== 'undefined') {
 
   // works
-  //
+  // const worker = new Worker(new URL('./app.worker', import.meta.url));
 
   // does not work
   const url = new URL('./app.worker', import.meta.url);
