@@ -24,4 +24,4 @@ the code was trying to pull worker from two different spots:
  - IE11: ...mydomain.local/survey/take/8230219b602f9582c8b7.js
  
 this might be another bug... since the worker was being called from a service... 
-which was injected into a lazy-loaded on the `/take` route.
+which was injected into a lazy-loaded module on the `/take` route.
